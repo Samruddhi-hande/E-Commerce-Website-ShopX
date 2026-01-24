@@ -8,6 +8,7 @@ const app = express()
 //there are ~6500 ports
 app.get('/', (req, res) => {
     res.send("server is ready");
+    
 })
 app.get('/api/jokes', (req, res) => {
     const jokes = [
